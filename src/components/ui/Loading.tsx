@@ -6,12 +6,18 @@ const LoadingScreen = () => {
   const [loadingText, setLoadingText] = useState("Preparing your healthcare experience...");
 
   const loadingMessages = [
-    "Preparing your healthcare experience...",
-    "Connecting you with medical professionals...",
-    // "Securing your medical records...",
-    // "Verifying patient information...",
-    // "Almost ready..."
-  ];
+  "Engineering your next smart building...",
+  "Optimizing structural design parameters...",
+  "Preparing precision-driven PEB solutions...",
+  "Coordinating turnkey fabrication and installation...",
+  "Validating design with advanced engineering software...",
+  "Loading our recent projects and key clients...",
+  "Ensuring quality with premium steel brands...",
+  "Customizing your metal building system...",
+  "Setting up your project estimate workspace...",
+  "Bringing AVNYA Smart Builds excellence to your screen..."
+];
+
 
   useEffect(() => {
     const progressInterval = setInterval(() => {
