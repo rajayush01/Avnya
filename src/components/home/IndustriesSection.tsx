@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 
 const IndustriesSection = () => {
   const [isVisible, setIsVisible] = useState(false);
-  const [hoveredIndex, setHoveredIndex] = useState(null);
+const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   const sectionRef = useRef(null);
 
   const industries = [
