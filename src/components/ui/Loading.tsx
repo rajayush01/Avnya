@@ -3,7 +3,7 @@ import logo from "../../assets/logo-nobg.png";
 
 const LoadingScreen = () => {
   const [progress, setProgress] = useState(0);
-  const [loadingText, setLoadingText] = useState("Preparing your healthcare experience...");
+  const [loadingText, setLoadingText] = useState("Bringing AVNYA Smart Builds excellence to your screen...");
 
   const loadingMessages = [
   "Engineering your next smart building...",
